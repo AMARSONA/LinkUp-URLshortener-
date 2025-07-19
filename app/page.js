@@ -15,7 +15,7 @@ export default function Home() {
         </div>
 
         <div className="md:flex md:justify-center md:relative sm: flex sm:flex-col sm:justify-center sm:items-center sm:h-[50vh] max-sm:justify-center">
-          <Image className="mix-blend-darken sm:h-[500] sm:w-[1000] max-sm:h-[350px]" src={"./vector.jpg"} alt="image of a vector" width={500}
+          <Image className="mix-blend-darken sm:h-[500] sm:w-[1000] max-sm:h-[350px]" src={"/vector.jpg"} alt="image of a vector" width={500}
             height={300} />
           {/* <Image className="mix-blend-darken" src={"/vector.jpg"} alt="image of a vector" fill={true} /> */}
 
