@@ -7,7 +7,7 @@ export default function Home() {
       <section className="md:grid md:grid-cols-2 md:h-[50vh] sm:h-[80vh] sm:flex sm:flex-col sm:justify-center max-sm:h-[650px]">
         <div className="bg-green-50 h-[50vh] flex flex-col gap-4 items-center justify-center max-sm:h-[300px]">
           <p className="text-3xl font-bold max-sm:text-2xl">Sasta,Sundar and Tikau</p>
-          <p className="px-32 text-center font-bold">That's our USP and soon our URL shortener will dominate the industry...</p>
+          <p className="px-32 text-center font-bold">That&apos;s our USP and soon our URL shortener will dominate the industry...</p>
           <div className='flex gap-3 justify-start'>
             <Link href="/shorten"><button className='bg-purple-500 rounded-lg shadow-lg p-3 py-2 font-bold text-white'>Try Now</button></Link>
             {/* <Link href="/github"><button className='bg-purple-500 rounded-lg shadow-lg p-3 py-2 font-bold text-white'>GitHub</button></Link> */}
